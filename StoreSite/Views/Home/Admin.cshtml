@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewBag.Title = "Admin";
+}
+<style>
+    .rowadmin {
+        margin: 10px;
+        padding: 10px;
+        float: left;
+        clear: both;
+        width: 100%;
+    }
+</style>
+
+<section class="htc__contact__area ptb--100 bg__white">
+    <div class="container">
+        <div>
+            <h1>Admin Actions</h1>
+        </div>
+        <div>
+            <span style="font-size:20px;color:green;" id="spnMessage"></span>
+        </div>
+        <div class="rowadmin">
+            <div class="col-lg-6" style="border-left:1px solid grey;padding-left:10px;">
+                <form id="formUploadProductDetails" action="/Home/UploadProductDetails" enctype="multipart/form-data">
+                    <div style="margin:20px 0px;font-size:20px;font-weight:bold;">Upload Product Details</div>
+                    <div class="row">
+                        <div class="col-md-4">Upload File</div>
+                        <div class="col-md-8"><input type="file" id="fileUploadProductDetails" /></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8"><input type="button" value="Upload" id="btnUploadProductDetails" /></div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6" style="border-left:1px solid grey;padding-left:10px;">
+                <div style="margin:20px 0px;font-size:20px;font-weight:bold;">Download Customer Enquiry Details</div>
+                <div class="row">
+                    <div class="col-md-4">Download File</div>
+                    <div class="col-md-8"><a href="Home/DownloadEnquiry" style="font-size: 20px; color: blue; font-weight: bold;">Click here</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="rowadmin">
+            <form id="formUploadProductImages" action="/Home/UploadProductImages" enctype="multipart/form-data">
+                <div class="col-lg-6" style="border-left:1px solid grey;padding-left:10px;">
+                    <div style="margin:20px 0px;font-size:20px;font-weight:bold;">Upload Product Images</div>
+                    <div class="row">
+                        <div class="col-md-4">Upload File</div>
+                        <div class="col-md-8"><input type="file" multiple="multiple" id="fileUploadProductImages" accept="image/x-png,image/gif,image/jpeg" name="productImages" /></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8"><input type="button" value="Upload" id="btnUploadProductImages" /></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<script type="text/javascript">
+    var formProductDetails = document.getElementById('formUploadProductDetails');
+    document.getElementById('btnUploadProductDetails').onclick = function () {
+        var fileInput = document.getElementById('fileUploadProductDetails');
+        var file = fileInput.files[0];
+        var formData = new FormData(formProductDetails);
+        formData.append('file', file);
+        var xhr = new XMLHttpRequest();
+        // Add any event handlers here...
+        xhr.open('POST', formProductDetails.getAttribute('action'), true);
+        xhr.send(formData);
+        $("#spnMessage").html("Successfully Uploaded !"); // To avoid actual submission of the form
+        formProductDetails.reset();
+    }
+    var formImages = document.getElementById('formUploadProductImages');
+    document.getElementById('btnUploadProductImages').onclick = function () {
+        var fileInput = document.getElementById('fileUploadProductImages');
+        var file = fileInput.files;
+        var formData = new FormData(formImages);
+        formData.append('file', file);
+        var xhr = new XMLHttpRequest();
+        // Add any event handlers here...
+        xhr.open('POST', formImages.getAttribute('action'), true);
+        xhr.send(formData);
+        $("#spnMessage").html("Successfully Uploaded !"); // To avoid actual submission of the form
+        formImages.reset();
+    }
+</script>

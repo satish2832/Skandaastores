@@ -1,0 +1,206 @@
+﻿@{
+    var productImageUrl = "/Content/Site/images/product/" + ViewBag.product.Code + ".jpg";
+}
+<input type="hidden" value="@ViewBag.product.Code" id="hdnProductCode" />
+<!-- Start Bradcaump area -->
+<div class="ht__bradcaump__area" style="background:#eee;">
+    <div class="ht__bradcaump__wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="bradcaump__inner">
+                        <nav class="bradcaump-inner">
+                            <a class="breadcrumb-item" href="/">Home</a>
+                            <span class="brd-separetor"><i class="zmdi zmdi-chevron-right"></i></span>
+                            <a class="breadcrumb-item" href="/">Products</a>
+                            <span class="brd-separetor"><i class="zmdi zmdi-chevron-right"></i></span>
+                            <span class="breadcrumb-item active">ean shirt</span>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Bradcaump area -->
+<!-- Start Product Details Area -->
+<section class="htc__product__details bg__white ptb--10">
+    <!-- Start Product Details Top -->
+    <div class="htc__product__details__top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
+                    <div class="htc__product__details__tab__content">
+                        <!-- Start Product Big Images -->
+                        <div class="product__big__images">
+                            <div class="portfolio-full-image tab-content">
+                                <div role="tabpanel" class="tab-pane fade in active" id="img-tab-1">
+                                    <img src="@productImageUrl" alt="full-image">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Product Big Images -->
+                    </div>
+                </div>
+                <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12 smt-40 xmt-40">
+                    <div class="ht__product__dtl">
+                        <h2>@ViewBag.description</h2>
+                        <h6>Model: <span>@ViewBag.code</span></h6>
+                        <ul class="pro__prize">
+                            <li>Rs.@ViewBag.newPrice</li>
+                        </ul>
+                        <div class="ht__pro__desc">
+                            <div class="sin__desc">
+                                <p><span>Availability:</span> In Stock</p>
+                            </div>
+                            <div class="sin__desc align--left">
+                                <p><span>color:</span></p>
+                                <ul class="pro__color">
+                                    @{
+                                        foreach (var color in ViewBag.colors)
+                                        {
+                                            <li class="@(color)"><a href="#">@color</a></li>
+                                        }
+                                    }
+                                </ul>
+                                <div class="pro__more__btn">
+                                    <a href="#">more</a>
+                                </div>
+                            </div>
+                            <div class="sin__desc product__share__link">
+                                <p><span>Share this:</span></p>
+                                <ul class="pro__share">
+                                    <li><a href="#" target="_blank"><i class="icon-social-twitter icons"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="icon-social-instagram icons"></i></a></li>
+                                    <li><a href="https://www.facebook.com/Furny/?ref=bookmarks" target="_blank"><i class="icon-social-facebook icons"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="contact-form-wrap mt--60">
+                                <div class="form-output col-xs-12" style="padding:10px 0px;">
+                                    <p class="form-messege" style="font-size: 20px; color: green; font-weight: bold; padding: 10px;"></p>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="contact-title">
+                                        <h2 class="title__line--6">
+                                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myEnquiryModal">Buy Now</button>
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div id="myEnquiryModal" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h4 class="modal-title">Send Your Enquiry</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form id="contact-form" action="#" method="post">
+                                                    <div class="single-contact-form">
+                                                        <div class="contact-box name">
+                                                            <input type="text" required name="name" placeholder="Your Name*">
+                                                        </div>
+                                                    </div>
+                                                    <div class="single-contact-form">
+                                                        <div class="contact-box name">
+                                                            <input type="text" required maxlength="10" name="phone" placeholder="Phone*">
+                                                            <input type="email" required name="email" placeholder="Mail*">
+                                                        </div>
+                                                    </div>
+                                                    <div class="single-contact-form">
+                                                        <div class="contact-box name">
+                                                            <input type="number" min="10" max="100" required name="quantity" placeholder="Quantity*">
+                                                        </div>
+                                                    </div>
+                                                    <div class="single-contact-form">
+                                                        <div class="contact-box message">
+                                                            <textarea name="message" required placeholder="Your Message"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div class="contact-btn">
+                                                        <button type="button" id="btnSendMessage" class="fv-btn">Send MESSAGE</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Product Details Top -->
+</section>
+<!-- End Product Details Area -->
+<!-- Start Product Area -->
+<section class="htc__product__area--2 pb--100 product-details-res">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="section__title--2">
+                    <h2 class="title__line">New Arrivals</h2>
+                    <p>But I must explain to you how all this mistaken idea</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="product__wrap clearfix">
+                <!-- Start Single Product -->
+                <!-- Start Single Category -->
+                @{
+                    foreach (var product in (List<StoreSite.Models.Product>)ViewBag.Products)
+                    {
+                        var imageUrl = "/Content/Site/images/product/" + product.Code + ".jpg";
+                        <div class="col-md-4 col-lg-3 col-sm-4 col-xs-12">
+                            <div class="category">
+                                <div class="ht__cat__thumb">
+                                    <a href="/productdetails/@product.Code/@product.Title.Replace(" ","-")">
+                                        <img src="@imageUrl" alt="@product.Title">
+                                    </a>
+                                </div>
+                                <div class="fr__product__inner">
+                                    <h4><a href="/productdetails/A100/Boat Rockerz 400 On-Ear Bluetooth Headphones (Carbon Black)/150,100/green,red,blue">Largest Water Pot</a></h4>
+                                    <ul class="fr__pro__prize">
+                                        <li class="old__prize">Rs. @product.OldValue</li>
+                                        <li>Rs. @product.NewValue</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                }
+                <!-- End Single Category -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Product Area -->
+<!-- Start Banner Area -->
+<div class="htc__brand__area bg__cat--4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="ht__brand__inner">
+                    <ul class="brand__list owl-carousel clearfix">
+                        <li><a href="#"><img src="/Content/Site/images/brand/1.png" alt="brand images"></a></li>
+                        <li><a href="#"><img src="/Content/Site/images/brand/2.png" alt="brand images"></a></li>
+                        <li><a href="#"><img src="/Content/Site/images/brand/3.png" alt="brand images"></a></li>
+                        <li><a href="#"><img src="/Content/Site/images/brand/4.png" alt="brand images"></a></li>
+                        <li><a href="#"><img src="/Content/Site/images/brand/5.png" alt="brand images"></a></li>
+                        <li><a href="#"><img src="/Content/Site/images/brand/5.png" alt="brand images"></a></li>
+                        <li><a href="#"><img src="/Content/Site/images/brand/1.png" alt="brand images"></a></li>
+                        <li><a href="#"><img src="/Content/Site/images/brand/2.png" alt="brand images"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Banner Area -->

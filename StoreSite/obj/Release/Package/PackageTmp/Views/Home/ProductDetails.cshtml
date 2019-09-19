@@ -1,0 +1,273 @@
+﻿ <!-- Start Bradcaump area -->
+<div class="ht__bradcaump__area" style="background:#eee;">
+    <div class="ht__bradcaump__wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="bradcaump__inner">
+                        <nav class="bradcaump-inner">
+                            <a class="breadcrumb-item" href="/">Home</a>
+                            <span class="brd-separetor"><i class="zmdi zmdi-chevron-right"></i></span>
+                            <a class="breadcrumb-item" href="/">Products</a>
+                            <span class="brd-separetor"><i class="zmdi zmdi-chevron-right"></i></span>
+                            <span class="breadcrumb-item active">ean shirt</span>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Bradcaump area -->
+<!-- Start Product Details Area -->
+<section class="htc__product__details bg__white ptb--100">
+    <!-- Start Product Details Top -->
+    <div class="htc__product__details__top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
+                    <div class="htc__product__details__tab__content">
+                        <!-- Start Product Big Images -->
+                        <div class="product__big__images">
+                            <div class="portfolio-full-image tab-content">
+                                <div role="tabpanel" class="tab-pane fade in active" id="img-tab-1">
+                                    <img src="/Content/Site/images/product-2/big-img/1.jpg" alt="full-image">
+                                </div>                               
+                            </div>
+                        </div>                        
+                        <!-- End Product Big Images -->                     
+                    </div>
+                </div>
+                <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12 smt-40 xmt-40">
+                    <div class="ht__product__dtl">
+                        <h2>@ViewBag.description</h2>
+                        <h6>Model: <span>@ViewBag.code</span></h6>
+                        <ul class="pro__prize">
+                            <li>Rs.@ViewBag.newPrice</li>
+                        </ul>
+                        <div class="ht__pro__desc">
+                            <div class="sin__desc">
+                                <p><span>Availability:</span> In Stock</p>
+                            </div>
+                            <div class="sin__desc align--left">
+                                <p><span>color:</span></p>
+                                <ul class="pro__color">
+                                    @{
+                                        foreach (var color in ViewBag.colors)
+                                        {
+                                            <li class="@color"><a href="#">@color</a></li>
+                                        }
+                                    }
+                                </ul>
+                                <div class="pro__more__btn">
+                                    <a href="#">more</a>
+                                </div>
+                            </div>
+                            <div class="sin__desc product__share__link">
+                                <p><span>Share this:</span></p>
+                                <ul class="pro__share">
+                                    <li><a href="#" target="_blank"><i class="icon-social-twitter icons"></i></a></li>
+
+                                    <li><a href="#" target="_blank"><i class="icon-social-instagram icons"></i></a></li>
+
+                                    <li><a href="https://www.facebook.com/Furny/?ref=bookmarks" target="_blank"><i class="icon-social-facebook icons"></i></a></li>
+
+                                    <li><a href="#" target="_blank"><i class="icon-social-google icons"></i></a></li>
+
+                                    <li><a href="#" target="_blank"><i class="icon-social-linkedin icons"></i></a></li>
+
+                                    <li><a href="#" target="_blank"><i class="icon-social-pinterest icons"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="contact-form-wrap mt--60">
+                                <div class="col-xs-12">
+                                    <div class="contact-title">
+                                        <h2 class="title__line--6">SEND A MAIL</h2>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <form id="contact-form" action="#" method="post">
+                                        <div class="single-contact-form">
+                                            <div class="contact-box name">
+                                                <input type="text" name="name" placeholder="Your Name*">
+                                                <input type="email" name="email" placeholder="Mail*">
+                                            </div>
+                                        </div>
+                                        <div class="single-contact-form">
+                                            <div class="contact-box subject">
+                                                <input type="text" name="subject" placeholder="Subject*">
+                                            </div>
+                                        </div>
+                                        <div class="single-contact-form">
+                                            <div class="contact-box message">
+                                                <textarea name="message" placeholder="Your Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="contact-btn">
+                                            <button type="submit" class="fv-btn">Send MESSAGE</button>
+                                        </div>
+                                    </form>
+                                    <div class="form-output">
+                                        <p class="form-messege"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Product Details Top -->
+</section>
+<!-- End Product Details Area -->
+<!-- Start Product Area -->
+<section class="htc__product__area--2 pb--100 product-details-res">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="section__title--2 text-center">
+                    <h2 class="title__line">New Arrivals</h2>
+                    <p>But I must explain to you how all this mistaken idea</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="product__wrap clearfix">
+                <!-- Start Single Product -->
+                <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                    <div class="category">
+                        <div class="ht__cat__thumb">
+                            <a href="/productdetails/A100/Boat Rockerz 400 On-Ear Bluetooth Headphones (Carbon Black)/150,100/green,red,blue">
+                                <img src="/Content/Site/images/product/1.jpg" alt="product images">
+                            </a>
+                        </div>
+                        <div class="fr__hover__info">
+                            <ul class="product__action">
+                                <li><a href="wishlist.html"><i class="icon-heart icons"></i></a></li>
+
+                                <li><a href="cart.html"><i class="icon-handbag icons"></i></a></li>
+
+                                <li><a href="#"><i class="icon-shuffle icons"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="fr__product__inner">
+                            <h4><a href="/productdetails/A100/Boat Rockerz 400 On-Ear Bluetooth Headphones (Carbon Black)/150,100/green,red,blue">Product Title Here </a></h4>
+                            <ul class="fr__pro__prize">
+                                <li class="old__prize">Rs. 30.3</li>
+                                <li>Rs. 25.9</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Product -->
+                <!-- Start Single Product -->
+                <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                    <div class="category">
+                        <div class="ht__cat__thumb">
+                            <a href="/productdetails/A100/Boat Rockerz 400 On-Ear Bluetooth Headphones (Carbon Black)/150,100/green,red,blue">
+                                <img src="/Content/Site/images/product/2.jpg" alt="product images">
+                            </a>
+                        </div>
+                        <div class="fr__hover__info">
+                            <ul class="product__action">
+                                <li><a href="wishlist.html"><i class="icon-heart icons"></i></a></li>
+
+                                <li><a href="cart.html"><i class="icon-handbag icons"></i></a></li>
+
+                                <li><a href="#"><i class="icon-shuffle icons"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="fr__product__inner">
+                            <h4><a href="/productdetails/A100/Boat Rockerz 400 On-Ear Bluetooth Headphones (Carbon Black)/150,100/green,red,blue">Product Title Here </a></h4>
+                            <ul class="fr__pro__prize">
+                                <li class="old__prize">Rs. 30.3</li>
+                                <li>Rs. 25.9</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Product -->
+                <!-- Start Single Product -->
+                <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                    <div class="category">
+                        <div class="ht__cat__thumb">
+                            <a href="/productdetails/A100/Boat Rockerz 400 On-Ear Bluetooth Headphones (Carbon Black)/150,100/green,red,blue">
+                                <img src="/Content/Site/images/product/3.jpg" alt="product images">
+                            </a>
+                        </div>
+                        <div class="fr__hover__info">
+                            <ul class="product__action">
+                                <li><a href="wishlist.html"><i class="icon-heart icons"></i></a></li>
+
+                                <li><a href="cart.html"><i class="icon-handbag icons"></i></a></li>
+
+                                <li><a href="#"><i class="icon-shuffle icons"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="fr__product__inner">
+                            <h4><a href="/productdetails/A100/Boat Rockerz 400 On-Ear Bluetooth Headphones (Carbon Black)/150,100/green,red,blue">Product Title Here </a></h4>
+                            <ul class="fr__pro__prize">
+                                <li class="old__prize">Rs. 30.3</li>
+                                <li>Rs. 25.9</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Product -->
+                <!-- Start Single Product -->
+                <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                    <div class="category">
+                        <div class="ht__cat__thumb">
+                            <a href="/productdetails/A100/Boat Rockerz 400 On-Ear Bluetooth Headphones (Carbon Black)/150,100/green,red,blue">
+                                <img src="/Content/Site/images/product/4.jpg" alt="product images">
+                            </a>
+                        </div>
+                        <div class="fr__hover__info">
+                            <ul class="product__action">
+                                <li><a href="wishlist.html"><i class="icon-heart icons"></i></a></li>
+
+                                <li><a href="cart.html"><i class="icon-handbag icons"></i></a></li>
+
+                                <li><a href="#"><i class="icon-shuffle icons"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="fr__product__inner">
+                            <h4><a href="/productdetails/A100/Boat Rockerz 400 On-Ear Bluetooth Headphones (Carbon Black)/150,100/green,red,blue">Product Title Here </a></h4>
+                            <ul class="fr__pro__prize">
+                                <li class="old__prize">Rs. 30.3</li>
+                                <li>Rs. 25.9</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Product -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Product Area -->
+<!-- Start Banner Area -->
+<div class="htc__brand__area bg__cat--4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="ht__brand__inner">
+                    <ul class="brand__list owl-carousel clearfix">
+                        <li><a href="#"><img src="/Content/Site/images/brand/1.png" alt="brand images"></a></li>
+                        <li><a href="#"><img src="/Content/Site/images/brand/2.png" alt="brand images"></a></li>
+                        <li><a href="#"><img src="/Content/Site/images/brand/3.png" alt="brand images"></a></li>
+                        <li><a href="#"><img src="/Content/Site/images/brand/4.png" alt="brand images"></a></li>
+                        <li><a href="#"><img src="/Content/Site/images/brand/5.png" alt="brand images"></a></li>
+                        <li><a href="#"><img src="/Content/Site/images/brand/5.png" alt="brand images"></a></li>
+                        <li><a href="#"><img src="/Content/Site/images/brand/1.png" alt="brand images"></a></li>
+                        <li><a href="#"><img src="/Content/Site/images/brand/2.png" alt="brand images"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Banner Area -->

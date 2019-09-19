@@ -1,0 +1,152 @@
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\StoreSite.dll.config
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\StoreSite.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\StoreSite.pdb
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\csc.exe
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\csc.exe.config
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\csc.rsp
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\csi.exe
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\csi.exe.config
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\csi.rsp
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\Microsoft.CSharp.Core.targets
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\Microsoft.Managed.Core.targets
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.AppContext.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.Collections.Immutable.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.Console.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.Diagnostics.StackTrace.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.IO.Compression.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.IO.FileSystem.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.IO.FileSystem.Primitives.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.IO.Pipes.AccessControl.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.IO.Pipes.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.Reflection.Metadata.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.Security.AccessControl.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.Security.Claims.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.Security.Cryptography.Encoding.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.Security.Cryptography.Primitives.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.Security.Principal.Windows.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.Text.Encoding.CodePages.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.ValueTuple.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.Xml.ReaderWriter.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.Xml.XmlDocument.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.Xml.XPath.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\System.Xml.XPath.XDocument.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\vbc.exe
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\vbc.exe.config
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\vbc.rsp
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\VBCSCompiler.exe
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\roslyn\VBCSCompiler.exe.config
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\Antlr3.Runtime.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\Microsoft.Web.Infrastructure.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\Newtonsoft.Json.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\System.Web.Helpers.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\System.Web.Mvc.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\System.Web.Optimization.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\System.Web.Razor.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\System.Web.WebPages.Deployment.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\System.Web.WebPages.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\System.Web.WebPages.Razor.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\WebGrease.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\System.Web.Helpers.xml
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\System.Web.Mvc.xml
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\System.Web.Optimization.xml
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\System.Web.Razor.xml
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\System.Web.WebPages.xml
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\System.Web.WebPages.Deployment.xml
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\System.Web.WebPages.Razor.xml
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\Newtonsoft.Json.xml
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\Antlr3.Runtime.pdb
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\obj\Debug\StoreSite.csproj.CoreCompileInputs.cache
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\obj\Debug\StoreSite.csproj.CopyComplete
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\obj\Debug\StoreSite.dll
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\obj\Debug\StoreSite.pdb
+d:\Users\satischi\Documents\Visual Studio 2017\Projects\StoreSite\StoreSite\obj\Debug\StoreSite.csprojAssemblyReference.cache
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\StoreSite.dll.config
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\StoreSite.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\StoreSite.pdb
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\csc.exe
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\csc.exe.config
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\csc.rsp
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\csi.exe
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\csi.exe.config
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\csi.rsp
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.AppContext.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.Collections.Immutable.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.Console.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.IO.Compression.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.IO.FileSystem.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.IO.Pipes.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.Reflection.Metadata.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.Security.AccessControl.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.Security.Claims.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.ValueTuple.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.Xml.XPath.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\vbc.exe
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\vbc.exe.config
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\vbc.rsp
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\VBCSCompiler.exe
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\roslyn\VBCSCompiler.exe.config
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\Antlr3.Runtime.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\Microsoft.Web.Infrastructure.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\Newtonsoft.Json.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\System.Web.Helpers.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\System.Web.Mvc.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\System.Web.Optimization.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\System.Web.Razor.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\System.Web.WebPages.Deployment.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\System.Web.WebPages.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\System.Web.WebPages.Razor.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\WebGrease.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\System.Web.Helpers.xml
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\System.Web.Mvc.xml
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\System.Web.Optimization.xml
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\System.Web.Razor.xml
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\System.Web.WebPages.xml
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\System.Web.WebPages.Deployment.xml
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\System.Web.WebPages.Razor.xml
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\Newtonsoft.Json.xml
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\Antlr3.Runtime.pdb
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\obj\Debug\StoreSite.csprojAssemblyReference.cache
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\obj\Debug\StoreSite.csproj.CoreCompileInputs.cache
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\obj\Debug\StoreSite.csproj.CopyComplete
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\obj\Debug\StoreSite.dll
+E:\Capgemini-work-bkp\Capgemini-work-bkp\StoreSite\StoreSite\obj\Debug\StoreSite.pdb
